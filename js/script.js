@@ -1,3 +1,5 @@
+import move from "./slider.js";
+
 // Filter
 
 const filters = document.querySelectorAll('[data-filter]');

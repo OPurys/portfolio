@@ -12,7 +12,7 @@ let sliderCount = 0;
 let sliderWidth;
 
 
-function move() {
+const move = () => {
 
     window.addEventListener('resize', showSlide);
 
@@ -71,8 +71,9 @@ function move() {
     /*setInterval(() => {
     nextSlide();
     }, 3000)*/
-
 }
+
+export default move;
 
 
 
